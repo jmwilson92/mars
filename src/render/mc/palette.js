@@ -1,0 +1,31 @@
+export const MC = {
+  floorCarpet: 0x232833,
+  floorCarpetAlt: 0x252a36,
+  wallPanel: 0x1a1d22,
+  wallSeam: 0x14161a,
+  ceiling: 0x121418,
+  consoleBody: 0x2a2f38,
+  consoleTop: 0x343a44,
+  bezel: 0x0a0a0c,
+  rackBlack: 0x0e1013,
+  steel: 0x6a7078,
+  chairFabric: 0x2e4a6b,
+  chairMesh: 0x1e2228,
+
+  screenBlue: 0x7fb8d8,
+  dataAmber: 0xffb000,
+  dataCyan: 0x4fd8e8,
+  dataGreen: 0x4ade80,
+  alertRed: 0xff3b30,
+  ledStrip: 0xff9944,
+  warmDownlight: 0xffddb0,
+
+  skin: [0xf0c8a0, 0xe0ac80, 0xc68c60, 0xa56b45, 0x7a4b2e, 0x5c3620, 0xf5d5b8, 0x8d5a3b],
+  hair: [0x1a1410, 0x3b2a20, 0x5a3a22, 0x8a6a40, 0xc4a060, 0x2a2a2e, 0x4a3020],
+  tops: [0x1e3a5f, 0xe8e6e1, 0x6a7178, 0x2c333c, 0x3d4a3a, 0x4a3a32],
+  bottoms: [0x2a3038, 0x3a4550, 0x4a4034, 0x1e2830],
+};
+
+export function std(color, roughness, metalness = 0) {
+  return { color, roughness, metalness };
+}
