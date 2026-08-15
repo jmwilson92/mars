@@ -1,0 +1,18 @@
+{
+  "name": "mars",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MARS — program-management / colony-survival simulation",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "three": "^0.160.1"
+  }
+}
