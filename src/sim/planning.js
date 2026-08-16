@@ -1,4 +1,4 @@
-import { MISSION_TYPES } from '../render/phases.js';
+import { MISSION_TYPES } from '../core/constants.js';
 import { setCrewRole, setCrewTask, spawnManifestPeople } from './crew.js';
 import { gatherNode, placeModule } from './colony.js';
 import { applyLeg, assignOnCommit, takeBooster } from './fleet.js';

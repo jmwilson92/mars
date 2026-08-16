@@ -1,21 +1,5 @@
-export const PHASE = {
-  OFFICE: 'office',
-  EARTH_PAD: 'earth_pad',
-  CABIN: 'cabin',
-  COUNTDOWN: 'countdown',
-  ASCENT: 'ascent',
-  ORBIT: 'orbit',
-  LEO_OPS: 'leo_ops',
-  TRANSIT: 'transit',
-  EDL: 'edl',
-  MARS_SURFACE: 'mars_surface',
-};
-
-export const MISSION_TYPES = {
-  CARGO: 'CARGO',
-  ROBOTIC: 'ROBOTIC',
-  CREWED: 'CREWED',
-};
+export { PHASE, MISSION_TYPES } from '../core/constants.js';
+import { PHASE } from '../core/constants.js';
 
 export const FLIGHT_RATES = [0, 1, 3, 10, 30];
 

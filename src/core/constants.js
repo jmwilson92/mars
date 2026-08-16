@@ -68,3 +68,29 @@ export const SEVERITY = Object.freeze({
   RED: 'red',
   BLACK: 'black',
 });
+
+/**
+ * Flight phases and mission types.
+ *
+ * These live in core, not render: the simulation branches on both, and a
+ * simulation that imports from the renderer cannot be run headless or ported.
+ * `render/phases.js` re-exports them for the scene code.
+ */
+export const PHASE = Object.freeze({
+  OFFICE: 'office',
+  EARTH_PAD: 'earth_pad',
+  CABIN: 'cabin',
+  COUNTDOWN: 'countdown',
+  ASCENT: 'ascent',
+  ORBIT: 'orbit',
+  LEO_OPS: 'leo_ops',
+  TRANSIT: 'transit',
+  EDL: 'edl',
+  MARS_SURFACE: 'mars_surface',
+});
+
+export const MISSION_TYPES = Object.freeze({
+  CARGO: 'CARGO',
+  ROBOTIC: 'ROBOTIC',
+  CREWED: 'CREWED',
+});

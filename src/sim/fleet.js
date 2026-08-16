@@ -1,4 +1,4 @@
-import { MISSION_TYPES } from '../render/phases.js';
+import { MISSION_TYPES } from '../core/constants.js';
 import { raiseAlert } from './alerts.js';
 import { SEVERITY } from '../core/constants.js';
 
